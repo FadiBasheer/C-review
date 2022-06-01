@@ -1,6 +1,6 @@
 # Iterate over a Vector
 
-// Iterate over a vector using range based for loop
+    // Iterate over a vector using range based for loop
     for(auto & elem : vec_of_num){
         cout<< elem <<", ";
     }
