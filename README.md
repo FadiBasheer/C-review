@@ -4,7 +4,7 @@
     for(auto & elem : vec_of_num){
         cout<< elem <<", ";
     }
-    
+ 
     // Iterate over vector of integers by indexing
     for(int i = 0; i < vec_of_num.size(); i++){
         cout << vec_of_num[i] << " at index position: " << i << endl;
