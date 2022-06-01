@@ -5,12 +5,12 @@
         cout<< elem <<", ";
     }
     
-// Iterate over vector of integers by indexing
+    // Iterate over vector of integers by indexing
     for(int i = 0; i < vec_of_num.size(); i++){
         cout << vec_of_num[i] << " at index position: " << i << endl;
     }
     
-// Iterate over a vector using STL algorithm
+    // Iterate over a vector using STL algorithm
     // for_each() and Lambda function
     for_each(vec_of_num.begin(), vec_of_num.end(), [](const auto & elem){
                 cout<< elem << ", "; 
