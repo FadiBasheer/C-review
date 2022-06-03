@@ -32,7 +32,7 @@
         cout<<*it<<", ";         
     }
   
-# Looping through String ------
+# Looping through String
   Looping through the characters of a std::string, using a range-based for loop (it's from C++11, already supported in recent releases of GCC, clang, and the VC11 beta):
 
 std::string str = ???;
